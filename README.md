@@ -18,7 +18,6 @@ $ python3 -m pip install -U .
 
 # Example
 ## Python import
-Quick example:
 ```python
 import alkana
 
