@@ -1,4 +1,6 @@
 # alkana.py
+[![PyPI version](https://badge.fury.io/py/alkana.py.svg)](https://badge.fury.io/py/alkana.py)
+
 アルファベット文字列から、読み仮名をカタカナで取得できるツールです。
 
 # インストール
