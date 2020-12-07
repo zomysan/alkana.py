@@ -22,6 +22,6 @@ def get_kana(word):
     """
     from .data import data
     try:
-        return data[word]
+        return data[word.lower()]
     except KeyError:
         return None
