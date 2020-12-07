@@ -45,6 +45,24 @@ $ alkana abcdefg
 ```
 If the reading is not exist, there is no output.
 
+## External file
+
+Alkana can extend the dictionary.
+
+`sample.csv`
+```
+hogehoge,ホゲホゲ
+piyopiyo,ピヨピヨ
+...
+```
+
+```python
+import alkana
+alkana.add_external_data('./sample.csv')
+
+print(alkana.get_kana('hogehoge'))  # ホゲホゲ
+```
+
 # Copyrights
 Alphabetical word - katakana dictionary's data is from `bep-eng.dic`.
 
