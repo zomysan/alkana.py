@@ -45,6 +45,25 @@ $ alkana abcdefg
 ```
 指定された単語が辞書に存在しない場合、なにも出力されません。
 
+## External file
+
+辞書は拡張する事ができます。
+
+`sample.csv`を作成します。
+```
+hogehoge,ホゲホゲ
+piyopiyo,ピヨピヨ
+...
+```
+
+```python
+import alkana
+alkana.add_external_data('./sample.csv')
+
+print(alkana.get_kana('hogehoge'))  # ホゲホゲ
+```
+
+
 # Copyrights
 アルファベット文字列とカタカナを変換する辞書は、Bilingual Emacspeak Projectの`bep-eng.dic`のデータを利用しています。
 

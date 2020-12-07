@@ -2,6 +2,7 @@
 #
 # Licence GPLv2
 # (c) 2019 cod
+from .data import data
 
 
 def get_kana(word):
@@ -20,7 +21,6 @@ def get_kana(word):
         The reading of `word`.
         `None` if reading is not found.
     """
-    from .data import data
     try:
         return data[word.lower()]
     except KeyError:

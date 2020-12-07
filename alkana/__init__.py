@@ -5,3 +5,4 @@
 
 
 from .main import get_kana
+from .external_data import add_external_data
