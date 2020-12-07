@@ -1,5 +1,5 @@
-# alkana.py
-[![PyPI version](https://badge.fury.io/py/alkana.py.svg)](https://badge.fury.io/py/alkana.py)
+# alkana
+[![PyPI version](https://badge.fury.io/py/alkana.py.svg)](https://badge.fury.io/py/alkana)
 
 A tool to get the katakana reading of an alphabetical string.
 
@@ -8,7 +8,7 @@ Python 3 or higher is required.
 
 ## From pip
 ```
-python3 -m pip install -U alkana.py
+python3 -m pip install -U alkana
 ```
 
 ## Clone from GitHub

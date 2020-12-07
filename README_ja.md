@@ -1,5 +1,5 @@
-# alkana.py
-[![PyPI version](https://badge.fury.io/py/alkana.py.svg)](https://badge.fury.io/py/alkana.py)
+# alkana
+[![PyPI version](https://badge.fury.io/py/alkana.py.svg)](https://badge.fury.io/py/alkana)
 
 アルファベット文字列から、読み仮名をカタカナで取得できるツールです。
 
@@ -8,7 +8,7 @@ Python3、またはより新しいバージョンが必要です。
 
 ## pipでインストール 
 ```
-python3 -m pip install -U alkana.py
+python3 -m pip install -U alkana
 ```
 
 ## GitHubからclone
