@@ -4,9 +4,9 @@
 # coding: utf-8
 
 
-import setuptools
 import pathlib
 
+import setuptools
 
 description = 'A tool to get the katakana reading of an alphabetical string.'
 readme_file = pathlib.Path(__file__).parent/'README.md'
@@ -29,7 +29,7 @@ setuptools.setup(
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3.6',
         'Natural Language :: Japanese',
-        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',  # noqa
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)'
     ],
     entry_points={
         'console_scripts': [

@@ -4,5 +4,5 @@
 # (c) 2019 cod
 
 
-from .main import get_kana
-from .external_data import add_external_data
+from .external_data import add_external_data  # noqa: E261,F401
+from .main import get_kana  # noqa: E261,F401

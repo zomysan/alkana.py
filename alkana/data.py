@@ -6,8 +6,8 @@
 # Original data: bep-eng.dic
 # (c) 1999-2002 Bilingual Emacspeak Project
 
-
-data = {
+# type: dict[str, str]
+data = {  # noqa: F601
     "zyuganov": 'ジュガノフ',
     "zygote": 'ザイゴウト',
     "zygomatic": 'ザイゴウマティク',
