@@ -27,6 +27,7 @@ def parse_args(test=None):
 
 
 def console():
+    # type: () -> None
     args = parse_args()
     result = get_kana(args.word)
     if result:

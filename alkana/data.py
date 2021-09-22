@@ -6,7 +6,7 @@
 # Original data: bep-eng.dic
 # (c) 1999-2002 Bilingual Emacspeak Project
 
-
+# type: dict[str, str]
 data = {
     "zyuganov": 'ジュガノフ',
     "zygote": 'ザイゴウト',

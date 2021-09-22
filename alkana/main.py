@@ -6,6 +6,7 @@ from .data import data
 
 
 def get_kana(word):
+    # type: (str) -> str | None
     """
     Returns the reading of `word` as katakana.
 

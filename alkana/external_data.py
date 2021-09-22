@@ -6,6 +6,7 @@ from .data import data
 
 
 def add_external_data(file_path):
+    # type: (str) -> None
     external_data = {}
     with open(file_path, 'r') as f:
         for x in f:
