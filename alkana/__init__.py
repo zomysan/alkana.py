@@ -4,5 +4,7 @@
 # (c) 2019 cod
 
 
-from .main import get_kana
 from .external_data import add_external_data
+from .main import get_kana
+
+__all__ = ['add_external_data', 'get_kana']
