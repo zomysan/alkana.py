@@ -2,6 +2,8 @@
 #
 # Licence GPLv2
 # (c) 2019 cod
+from re import sub
+
 from .data import data
 
 
@@ -23,6 +25,10 @@ def get_kana(word):
         `None` if reading is not found.
     """
     try:
-        return data[word.lower()]
+        return sub(
+            r'[a-z]+',
+            lambda s: data[s.group(0)],
+            str(word).lower())
+
     except KeyError:
         return None
