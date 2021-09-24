@@ -31,7 +31,7 @@ def get_kana(word):
 def get_kana_for_sentence(sentence):
     # type: (str) -> str | None
     """
-    Returns the reading of `word` as katakana.
+    Returns the reading of `sentence` as katakana.
 
     Parameters
     ----------
