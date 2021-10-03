@@ -49,7 +49,7 @@ def get_kana_for_sentence(sentence):
         return sub(
             r'[a-z]+',
             lambda s: data[s.group(0)],
-            str(sentence).lower())
+            get_kana(sentence))
 
     except KeyError:
         return None
