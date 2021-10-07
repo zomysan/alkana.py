@@ -1,5 +1,5 @@
 # alkana
-[![PyPI version](https://badge.fury.io/py/alkana.py.svg)](https://badge.fury.io/py/alkana)
+[![PyPI version](https://badge.fury.io/py/alkana.svg)](https://badge.fury.io/py/alkana)
 
 A tool to get the katakana reading of an alphabetical string.
 
