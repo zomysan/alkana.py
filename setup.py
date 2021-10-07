@@ -18,7 +18,7 @@ setuptools.setup(
     version='0.0.1',
     url='https://github.com/cod-sushi/alkana.py',
     author='cod',
-    author_email='cod.sushi@gmail.jp',
+    author_email='cod.sushi@gmail.com',
     license='GPLv2',
     python_requires='>=3.0, <4.0',
     description=description,
