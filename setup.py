@@ -15,7 +15,7 @@ with readme_file.open(encoding='utf-8') as f:
 
 setuptools.setup(
     name='alkana',
-    version='0.0.1',
+    version='0.0.3',
     url='https://github.com/cod-sushi/alkana.py',
     author='cod',
     author_email='cod.sushi@gmail.com',
